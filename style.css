@@ -1,0 +1,226 @@
+body {
+    background: indianred;
+    transform: scale(0.9)
+
+
+}
+
+header {
+    text-align: center;
+    background-color: #5cb6cd;
+    padding: 15px;
+    padding-top: 25px;
+    margin: auto;
+    margin-bottom: -90px;
+    border-radius: 5px;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    color: floralwhite;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+hr{
+    color: darkslategray;
+    border-style: ridge;
+    height: 10px;
+}
+h2{
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkslategray;
+}
+
+h2.card-temp{
+    font-size: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkslategray;
+    padding:0
+}
+h5{
+    font-family: 'Nova Mono', monospace;
+    color: #5cb6cd;
+}
+
+h5.card-wind{
+    font-size: 50px;
+    color: darkslategray;
+    margin-top: -30px;
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h5.card-wind{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+    color: darkslategray;
+    font-family: 'Nova Mono', monospace;
+}
+
+.w2-container{
+    width: 1000px;
+    margin: auto;
+    float: none;
+}
+
+.w3-container{
+    width: 1000px;
+    margin: auto;
+    float: none;
+    transform: scale(0.7)
+
+}
+
+.average {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 250, 240);
+}
+
+.card:hover {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 250, 240);
+    box-shadow: 5px 5px 5px #6f2424;
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 500px;
+    background-color: #eeb370;
+    margin-top: 56px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-right: 20px;
+    border: 0;
+    text-align: right;
+    font-family: 'Nova Mono', monospace;
+    font-size: 25px;
+
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: floralwhite;
+    border-radius: 5px;
+    font-family: 'Nova Mono', monospace;
+    border: 0;
+    font-size: 20px;
+
+}
+
+input[type="submit"]:hover{
+    height: 50px;
+    width: 100px;
+    background-color: #97d76c;
+    border-radius: 5px;
+    font-family: 'Nova Mono', monospace;
+    border: 0;
+    font-size: 20px;
+
+}
+
+footer {
+    padding: 70px;
+    font-size: 10px;
+text-align: center;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+body{
+    width: 100%;
+}
+
+    header {
+    border-radius: 5px;
+        width: 100%;
+        position: relative;
+        margin-top: -90px;
+
+    }
+
+    h1 {
+    font-size: 160%;
+
+    }
+    input[type="text"]{
+        width: 100%;
+    font-size: 15px;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    input[type="submit"]{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+    input[type="submit"]:hover{
+        width: 100%;
+        font-size: 15px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 20%;
+        text-align: center;
+    }
+
+    footer#p {
+        font-size: 20%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card-deck .card {
+        -ms-flex: 0 0 48.7%;
+        flex: 0 0 48.7%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-deck .card {
+        -ms-flex: 0 0 32%;
+        flex: 0 0 32%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
+
+
+
