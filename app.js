@@ -136,5 +136,8 @@ button.addEventListener('click', function (){
      weekday[d.getDay()+3];
     document.querySelector('small#day5.text-muted').innerHTML=
      weekday[d.getDay()+4];
-})})
+})
+        .catch(error => window.alert(error));
+
+})
 
